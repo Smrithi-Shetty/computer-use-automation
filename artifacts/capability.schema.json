@@ -1,1 +1,41 @@
+{
+  "artifactVersion": "1.0",
 
+  "capability": {
+    "name": "",
+    "description": "",
+    "application": ""
+  },
+
+  "inputs": [
+    {
+      "name": "",
+      "type": "",
+      "required": true
+    }
+  ],
+
+  "outputs": [
+    {
+      "name": "",
+      "type": ""
+    }
+  ],
+
+  "successCondition": {
+    "type": "",
+    "value": ""
+  },
+
+  "steps": [
+    {
+      "stepId": "",
+      "action": "",
+      "locator": {
+        "primary": "",
+        "fallback": ""
+      },
+      "checkpoint": ""
+    }
+  ]
+}
