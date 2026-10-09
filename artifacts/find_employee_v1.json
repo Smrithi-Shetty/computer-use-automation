@@ -1,0 +1,63 @@
+{
+  "artifactVersion": "1.0",
+
+  "capability": {
+    "id": "CAP-001",
+    "name": "FindEmployee",
+    "description": "Search employee and retrieve details",
+    "application": "OrangeHRM"
+  },
+
+  "inputs": [
+    {
+      "name": "employeeName",
+      "type": "string",
+      "required": true
+    }
+  ],
+
+  "outputs": [
+    {
+      "name": "employeeId",
+      "type": "string"
+    },
+    {
+      "name": "firstName",
+      "type": "string"
+    },
+    {
+      "name": "lastName",
+      "type": "string"
+    }
+  ],
+
+  "successCondition": {
+    "type": "url_contains",
+    "value": "viewPersonalDetails"
+  },
+
+  "steps": [
+    {
+      "id": "1",
+      "action": "click",
+      "target": "PIM"
+    },
+    {
+      "id": "2",
+      "action": "type",
+      "parameter": "employeeName"
+    },
+    {
+      "id": "3",
+      "action": "search"
+    },
+    {
+      "id": "4",
+      "action": "openEmployee"
+    },
+    {
+      "id": "5",
+      "action": "extractData"
+    }
+  ]
+}
