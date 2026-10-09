@@ -1,0 +1,36 @@
+{
+    "status": "SUCCESS",
+    "capability": "FindEmployee",
+    "executionTime": "2026-10-09 21:39:48.191143",
+    "matchCount": 5,
+    "input": {
+        "employeeName": "Ana Clara"
+    },
+    "matches": [
+        {
+            "employeeId": "0373478",
+            "firstName": "Ana Clara",
+            "lastName": "Mathew"
+        },
+        {
+            "employeeId": "0371",
+            "firstName": "Ana Clara",
+            "lastName": "Benjamin"
+        },
+        {
+            "employeeId": "0377",
+            "firstName": "Ana Clara",
+            "lastName": "Taylor"
+        },
+        {
+            "employeeId": "0375",
+            "firstName": "Ana Clara",
+            "lastName": "Hathway"
+        },
+        {
+            "employeeId": "0374",
+            "firstName": "Ana Clara",
+            "lastName": "Zurich"
+        }
+    ]
+}
