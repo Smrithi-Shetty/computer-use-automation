@@ -1,0 +1,8 @@
+{
+    "status": "REQUIRES_HUMAN_INTERVENTION",
+    "timestamp": "2026-10-12 16:01:41.614689",
+    "employeeName": "Joy",
+    "reason": "9 matching employees found. Human review required.",
+    "state": "APPROVED",
+    "selectedEmployeeId": "0317"
+}

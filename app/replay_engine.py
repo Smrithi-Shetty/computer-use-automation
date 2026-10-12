@@ -87,7 +87,7 @@ def execute_capability(employee_name):
             print(f"Rows Found: {row_count}")
 
             # Too many matches, needs human review
-            if row_count > 5:
+            if row_count > 2:
 
                 browser.close()
 

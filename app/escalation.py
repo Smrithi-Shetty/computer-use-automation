@@ -9,7 +9,12 @@ def create_escalation(employee_name, reason):
         "status": "REQUIRES_HUMAN_INTERVENTION",
         "timestamp": str(datetime.now()),
         "employeeName": employee_name,
-        "reason": reason
+        "reason": reason,
+
+        # Human workflow
+
+        "state": "PENDING",
+        "selectedEmployeeId": None
     }
 
     file_name = (
@@ -27,5 +32,9 @@ def create_escalation(employee_name, reason):
             f,
             indent=4
         )
+
+    print(
+        f"Escalation saved: {path}"
+    )
 
     return escalation
