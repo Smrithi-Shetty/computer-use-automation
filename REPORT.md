@@ -1,20 +1,25 @@
-Replay execution pauses when ambiguity is detected.
+1. Solution Overview
 
-An escalation artifact is created and stored.
+2. System Architecture
 
-A human operator reviews the escalation artifact,
-selects the appropriate employee and marks the request approved.
+3. Capability Artifact Design
 
-Resume Handler retrieves the latest approved escalation artifact
-and resumes execution using the selected employee identifier.
+4. Discovery Agent Design
 
+5. Deterministic Replay Design
 
+6. Business Outcomes
+   - Success
+   - Employee Not Found
+   - Human Review Required
 
-1. Architecture
-2. Artifact Schema
-3. Deterministic Replay
-4. Error Handling
-5. Human Escalation
-6. Discovery Agent
 7. Evidence Collection
-8. Future Improvements
+   - Logs
+   - Screenshots
+   - Escalations
+
+8. Human-in-the-Loop Workflow
+
+9. Safety Considerations
+
+10. Future Enhancements
